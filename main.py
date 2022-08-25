@@ -18,8 +18,8 @@ headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 
 def main():
 
-    articleID = '4187968156194932672'
-    numberOfResult = 109
+    articleID = '4187968156194932672' # needs to be changed to the article, future version it will be changed!
+    numberOfResult = 109 # needs to be changed to the article, future version it will be changed!
 
     date = datetime.now().strftime("%d.%m.%Y")
     columns = ['Published Date', 'Title', 'Link']
